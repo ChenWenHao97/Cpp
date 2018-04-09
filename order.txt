@@ -1,0 +1,32 @@
+hrb be right back
+k okay?
+y why
+r are
+u you
+pic picture
+thk thanks!
+l8r later
+#include<iostream>
+using namespace std;
+void fun(int x1,int y1,int x2,int y2)
+{
+    for(int i = 10;i <=99;i++)
+    {
+        int ge = i % 10, shi = i / 10;
+        if(ge!=0 && i/ge==x1 && i%ge==y1 
+        && i/(ge+shi)==x2 && i%(ge+shi)==y2)
+            {
+                cout <<i;
+                break;
+            }
+    }
+}
+int main()
+{
+    int x1,y1,x2,y2;
+    cin >> x1 >> y1>>x2>>y2;
+    fun(x1,y1,x2,y2);
+    return 0;
+}
+
+78

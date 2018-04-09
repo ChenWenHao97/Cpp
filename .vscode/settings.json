@@ -4,6 +4,20 @@
         "iostream": "cpp",
         "initializer_list": "cpp",
         "ostream": "cpp",
-        "iosfwd": "cpp"
-    }
+        "iosfwd": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "chrono": "cpp",
+        "ratio": "cpp",
+        "scoped_allocator": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "valarray": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
